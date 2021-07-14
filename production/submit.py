@@ -36,7 +36,6 @@ if __name__ == '__main__':
         doc = yaml.load(f) # Parse YAML file
         defaults = doc['defaults'] if 'defaults' in doc else {}
         isMC = defaults.get("isMC")
-        print(isMC)
         
         # loop over samples
         #for sample, info in doc['samples'].iteritems():
